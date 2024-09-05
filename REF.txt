@@ -1,0 +1,15 @@
+https://tablademareas.com/ar/buenos-aires/san-fernando
+
+https://www.meteored.com.ar/tiempo-en_Belen+de+Escobar-America+Sur-Argentina-Provincia+de+Buenos+Aires-%2D1-16625.html
+
+LOGIN
+https://stackblitz.com/edit/stackblitz-starters-8j2yt8?file=package.json
+
+recursos
+login / registro
+  altura rio
+  meteorologia
+  avisos por mail
+  proveedores
+  telegram
+  

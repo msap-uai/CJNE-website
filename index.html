@@ -29,8 +29,9 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
                         <li class="nav-item"><a class="nav-link" href="#actividades">Actividades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#propiedades">Propiedades</a></li>
                         <li class="nav-item"><a class="nav-link" href="#login" data-bs-toggle="modal" data-bs-target="#loginModal">Socios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -58,7 +59,6 @@
                     
                     <div class="d-flex justify-content-between mt-3">
                         <button type="submit" class="btn btn-primary btn-block">Login</button>
-                        <!-- Botón que cierra el modal actual y abre el de registro -->
                         <button type="button" class="btn btn-secondary btn-block" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#registerModal">Registro</button>
                     </div>
                 </form>
@@ -109,7 +109,7 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
+                        <h1 class="mx-auto my-0 text-uppercase">Club Jardin Nautico Escobar</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
                         <a class="btn btn-primary" href="#about">Get Started</a>
                     </div>
@@ -177,9 +177,28 @@
                 </div>
             </div>
         </section>
+ <!-- Propiedades-->
+ <section class="projects-section bg-light" id="propiedades">
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide">
+            <div class="carousel-inner">
+              <!-- Carousel items will be inserted here -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
 
         <!-- Signup-->
-        <section class="signup-section" id="signup">
+        <section class="signup-section" id="contacto">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -274,6 +293,7 @@
         <!-- Core theme JS-->
         <script src="js/navbar.js"></script>
         <script src="js/login.js"></script>
+        <script src="js/propiedades.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

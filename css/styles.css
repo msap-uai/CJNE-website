@@ -89,6 +89,11 @@
   box-sizing: border-box;
 }
 
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;

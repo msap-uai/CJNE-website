@@ -7,7 +7,7 @@ https://stackblitz.com/edit/stackblitz-starters-8j2yt8?file=package.json
 
 recursos
 login / registro
-  altura rio
+  altura rio //https://canvasjs.com/javascript-charts/chart-image-overlay/
   meteorologia
   avisos por mail
   proveedores

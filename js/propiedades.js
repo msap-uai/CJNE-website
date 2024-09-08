@@ -16,7 +16,7 @@ async function fetchMercadoLibrePosts() {
   // Función para construir el carrusel
   async function buildCarousel() {
     const posts = await fetchMercadoLibrePosts();
-    const carouselInner = document.querySelector('.carousel-inner');
+    const carouselInner = document.querySelector('#propiedades-carousel');
   
     posts.forEach((post, index) => {
       const activeClass = index === 0 ? 'active' : '';
